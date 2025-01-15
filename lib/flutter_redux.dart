@@ -471,7 +471,7 @@ class _StoreStreamListenerState<S, ViewModel>
     _computeLatestValue();
 
     if (widget.onInitialBuild != null) {
-      WidgetsBinding.instance.addPostFrameCallback((_) {
+      WidgetsBinding.instance?.addPostFrameCallback((_) {
         widget.onInitialBuild!(_requireLatestValue);
       });
     }
