@@ -573,7 +573,7 @@ class _StoreStreamListenerState<S, ViewModel>
     _latestValue = vm;
 
     if (widget.onDidChange != null) {
-      WidgetsBinding.instance.addPostFrameCallback((_) {
+      WidgetsBinding.instance?.addPostFrameCallback((_) {
         if (mounted) {
           widget.onDidChange!(previousValue, _requireLatestValue);
         }
