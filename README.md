@@ -1,3 +1,7 @@
+# source
+
+flutter pub flutter_redux 0.10.0
+
 # flutter_redux
 
 [![Build Status](https://travis-ci.org/brianegan/flutter_redux.svg?branch=master)](https://travis-ci.org/brianegan/flutter_redux)  [![codecov](https://codecov.io/gh/brianegan/flutter_redux/branch/master/graph/badge.svg)](https://codecov.io/gh/brianegan/flutter_redux)
